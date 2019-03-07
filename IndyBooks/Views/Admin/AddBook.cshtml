@@ -19,7 +19,13 @@
         OR enter new Author: <input asp-for="@Model.Name" />
     </div>
     <!-- TODO: Add the rest of the label and input fields needed for a Book-->
-
-
+    <div>
+        <label asp-for="@Model.SKU"></label>
+        <input asp-for="@Model.SKU" />
+    </div>
+    <div>
+        <label asp-for="@Model.Price"></label>
+        <input asp-for="@Model.Price" />
+    </div>
     <input type="submit" value="Submit" />
 </form>
